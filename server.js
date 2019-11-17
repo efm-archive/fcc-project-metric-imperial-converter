@@ -20,6 +20,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(helmet());
+
 //Index page (static HTML)
 app.route('/').get(function(req, res) {
   res.sendFile(process.cwd() + '/views/index.html');
