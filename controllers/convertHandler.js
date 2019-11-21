@@ -121,7 +121,7 @@ function ConvertHandler() {
     //if the inital unit is invalid, return 'invalid unit'
     if (initUnit == 'invalid unit') return 'invalid unit';
 
-    // if it is valid, convert it
+    // as it is valid, convert it
     var result = conversion[initUnit.toLowerCase()].to;
     // console.log('getReturnUnit result :', result);
     return result;
